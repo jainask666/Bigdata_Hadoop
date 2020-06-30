@@ -1,7 +1,8 @@
 * what is Big Data ?
 
 ** Ans:  
-        big data gets generated in multi terabyte quantities. It changes fast and comes in varieties of forms that are difficult to 
+       
+       big data gets generated in multi terabyte quantities. It changes fast and comes in varieties of forms that are difficult to 
         manage and process using RDBMS or other traditional technologies. Big Data solutions provide the tools, methodologies, and technologies 
         that are used to capture, store, search & analyze the data in seconds to find relationships and insights for innovation and competitive 
         gain that were previously unavailable.
@@ -13,7 +14,8 @@
         
 *  Big Data Use-Cases
 
-** Ans: 
+** Ans:
+
         Netflix Uses Big Data to Improve Customer Experience
         Promotion and campaign analysis by Sears Holding
         Sentiment analysis
