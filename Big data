@@ -1,6 +1,6 @@
-## what is Big Data ?
+* what is Big Data ?
 
-# Ans:  
+** Ans:  
         big data gets generated in multi terabyte quantities. It changes fast and comes in varieties of forms that are difficult to 
         manage and process using RDBMS or other traditional technologies. Big Data solutions provide the tools, methodologies, and technologies 
         that are used to capture, store, search & analyze the data in seconds to find relationships and insights for innovation and competitive 
@@ -11,9 +11,9 @@
         as data scientists need to play with data now and then for predictive analysis unlike historical as used to be done with traditional.
         It is saying that- “An image is a worth of thousand words“. Hence we have also provided a video tutorial for more understand what is Big data and its need.
         
-## Big Data Use-Cases
+*  Big Data Use-Cases
 
-# Ans: 
+** Ans: 
         Netflix Uses Big Data to Improve Customer Experience
         Promotion and campaign analysis by Sears Holding
         Sentiment analysis
