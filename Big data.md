@@ -23,5 +23,5 @@
         Predictive analysis
         Real-time ad matching and serving
 
+![BIGDATA-Testing](https://user-images.githubusercontent.com/31212980/86347896-874a9500-bc7c-11ea-9a1e-4afaddc8ef00.png)
 
-![bigdata](https://user-images.githubusercontent.com/31212980/86347569-186d3c00-bc7c-11ea-9831-ee14ff7a4fc4.jpg)
