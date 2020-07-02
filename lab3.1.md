@@ -2,11 +2,11 @@
 
 ## step1: Create a Table in MySQL
 
-**img** :
+**img** :![Screenshot (46)](https://user-images.githubusercontent.com/31212980/86351355-c7f8dd00-bc81-11ea-8f77-2ba39c823900.png)
 
 ## step2: View the Table
 
-**img** :
+**img** :![Screenshot (52)](https://user-images.githubusercontent.com/31212980/86351389-d47d3580-bc81-11ea-8351-6b108748c171.png)
 
 ## step3: Import the Table into HDFS
 
