@@ -19,8 +19,7 @@
 
 # a. There is a script in the Exporting HDFS Data to an RDBMS lab folder that creates a table in MySQL that matches the records in salarydata.txt. View the SQL script:
 
-**img** :
-
+**img** :![cmd_3](https://user-images.githubusercontent.com/31212980/86355137-d21dda00-bc87-11ea-9de1-902c47592e96.jpg)
 
 ## step3 :  Export the Data
 
