@@ -22,3 +22,6 @@
         Customer Churn analysis
         Predictive analysis
         Real-time ad matching and serving
+
+
+![bigdata](https://user-images.githubusercontent.com/31212980/86347569-186d3c00-bc7c-11ea-9831-ee14ff7a4fc4.jpg)
