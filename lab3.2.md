@@ -12,7 +12,7 @@
 
 **cmd** : # hdfs dfs –put salarydata.txt salarydata
 
-**img** :
+**img** : ![cmd_1](https://user-images.githubusercontent.com/31212980/86354654-0c3aac00-bc87-11ea-8763-451f2fcbeaf9.jpg)
 
 
 ## step2 : 2 ) Create a Table in the Database
@@ -32,11 +32,11 @@
 
 **ex** : sqoop export --connect jdbc:mysql://sqoopdb1.cc6obx24apkz.us-east-1.rds.amazonaws.com/test --username root --password Coconuttree123  --table salaries2 --export-dir salarydata --input-fields-terminated-by ","
 
-**img** :
-
-
-
+**img** : ![cmd_2](https://user-images.githubusercontent.com/31212980/86354659-0e9d0600-bc87-11ea-93a5-329695af1fce.jpg)
+          
+          ![cmd_2 2](https://user-images.githubusercontent.com/31212980/86354657-0e046f80-bc87-11ea-96cc-f2adfb83c1b1.jpg)
+        
 
 # b. Verify it worked by viewing the table’s contents from the mysql prompt. The output should look like the following:
 
-**img** :
+**img** :![Screenshot (83)](https://user-images.githubusercontent.com/31212980/86354625-01801700-bc87-11ea-9487-0df7698fe650.png)
