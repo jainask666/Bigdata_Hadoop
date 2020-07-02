@@ -17,11 +17,15 @@ salaries table in the test database into HDFS:
 
 **ex** : sqoop import  --connect jdbc:mysql://sqoopdb1.cc6obx24apkz.us-east-1.rds.amazonaws.com/test --username root --password Coconuttree123  --table salaries
 
-**img** :
+**img** :![cmd_1](https://user-images.githubusercontent.com/31212980/86352468-794c4280-bc83-11ea-8ea3-061724bb4308.jpg)
+
 
 ## step4: Verify the Import
 
-**img** :
+**img** :![cmd_1 1](https://user-images.githubusercontent.com/31212980/86352461-77827f00-bc83-11ea-8529-9e567aa61d56.jpg)
+        
+        ![cmd_1 2](https://user-images.githubusercontent.com/31212980/86352465-78b3ac00-bc83-11ea-8896-800bdb255e2a.jpg)
+        
 
 ## step5 : Specify Columns to Import
 # a. Using the ‐‐columns argument, write a Sqoop command that imports the salary
@@ -36,7 +40,10 @@ salaries table in the test database into HDFS:
           
 **ex** :sqoop import --connect jdbc:mysql://sqoopdb1.cc6obx24apkz.us-east-1.rds.amazonaws.com/test --username root --password Coconuttree123  --table salaries --columns                    salary,age -m 1 --target-dir salaries2
 
-**img** :
+**img** : ![cmd_2](https://user-images.githubusercontent.com/31212980/86352476-7b160600-bc83-11ea-9e7d-6980f3bd1381.jpg)
+          ![cmd_2 2](https://user-images.githubusercontent.com/31212980/86352470-79e4d900-bc83-11ea-8d3a-9ba51fa44be6.jpg)
+          ![cmd_2 3](https://user-images.githubusercontent.com/31212980/86352475-7a7d6f80-bc83-11ea-93ac-67518bebeeac.jpg)
+
 
 # step6 :) Importing from a Query
 #   Write a Sqoop import command that imports the rows from salaries in MySQL whose
@@ -55,7 +62,10 @@ salaries table in the test database into HDFS:
 
 **ex** :.apache.sqoop.splitter.allow_text_splitter=true" --connect jdbc:mysql://sqoopdb1.cc6obx24apkz.us-east-1.rds.amazonaws.com/test --username root --password Coconuttree123            --query "select * from salaries where salary>90000.00 AND \$CONDITIONS" --split-by salaries.gender -m 2 --target-dir salaries3
 
-**img** :
+**img** : ![cmd_3](https://user-images.githubusercontent.com/31212980/86352483-7bae9c80-bc83-11ea-920a-4fad17b79f3a.jpg)
+          ![cmd_3 1](https://user-images.githubusercontent.com/31212980/86352479-7b160600-bc83-11ea-91cd-5df1d3d0b272.jpg)
+
+
           
           
           
